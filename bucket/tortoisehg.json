@@ -9,11 +9,8 @@
             "hash": "md5:C3261FAFDC77B593A6E34FF710A4CA54"
         }
     },
-    "bin": [
-        [
-            "hg.exe"
-        ]
-    ],
+    "extract_dir": "PFiles/TortoiseHg",
+    "bin": "hg.exe",
     "checkver": {
         "url": "https://bitbucket.org/tortoisehg/files/downloads/",
         "regex": "tortoisehg-([\\d.]+)-x64.msi"
