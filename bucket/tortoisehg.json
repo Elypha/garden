@@ -9,8 +9,6 @@
             "hash": "md5:C3261FAFDC77B593A6E34FF710A4CA54"
         }
     },
-    
-    "extract_dir": "Files/tortoisehg",
     "bin": [
         [
             "hg.exe"
