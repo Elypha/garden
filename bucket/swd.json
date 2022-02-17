@@ -11,12 +11,15 @@
         }
     },
     "bin": [
-        ["swd-windows-amd64.exe", "swd"]
+        [
+            "swd-windows-amd64.exe",
+            "swd"
+        ]
     ],
     "checkver": {
         "url": "https://api.github.com/repos/SegoCode/swd/releases/latest",
         "jsonpath": "$.tag_name",
-        "regex": "v([\\d.]+)"
+        "regex": "([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
