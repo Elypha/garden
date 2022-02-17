@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/SegoCode/swd/releases/download/1.5/swd-windows-amd64.exe",
+            "hash": "c867458cca164ec6234e04f34db96d82df6f22de3e2a204c8cdf59ed1d7f1faa",
             "extract_dir": "swd-1.5"
         }
     },
