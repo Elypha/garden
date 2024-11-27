@@ -1,2 +1,2 @@
 # darkside
-A scoop repo build for personal use.
+A scoop repo for personal use.
