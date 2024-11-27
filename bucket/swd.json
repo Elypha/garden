@@ -1,13 +1,13 @@
 {
-    "version": "1.5",
+    "version": "1.7",
     "description": "Simply steam workshop downloader in your terminal",
     "homepage": "https://github.com/SegoCode/swd",
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SegoCode/swd/releases/download/1.5/swd-windows-amd64.exe",
-            "hash": "c867458cca164ec6234e04f34db96d82df6f22de3e2a204c8cdf59ed1d7f1faa",
-            "extract_dir": "swd-1.5"
+            "url": "https://github.com/SegoCode/swd/releases/download/1.7/swd-windows-amd64.exe",
+            "hash": "2172d992788738d746f74f807cf3707eecec302d0505fe641d497e987e3b88a7",
+            "extract_dir": "swd-1.7"
         }
     },
     "bin": [
