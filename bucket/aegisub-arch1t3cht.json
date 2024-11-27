@@ -19,6 +19,12 @@
         ]
     },
     "bin": "aegisub.exe",
+    "shortcuts": [
+        [
+            "aegisub.exe",
+            "Aegisub"
+        ]
+    ],
     "persist": [
         "config.json"
     ],
