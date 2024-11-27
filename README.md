@@ -1,2 +1,3 @@
-# darkside
-A scoop repo for personal use.
+# Garden
+
+A [Scoop](https://github.com/ScoopInstaller/Scoop) repo for some extra apps for personal use.
