@@ -12,9 +12,8 @@
     },
     "installer": {
         "script": [
-            "7z x \"$fname\" -o\"$dir\"",
-            "7z x \"$dir/aegisub-portable-64.zip\" -o\"$dir\"",
-            "del aegisub-portable-64.zip",
+            "7z x \"$dir/aegisub-portable-64.zip\" -o\"$dir\" > $null",
+            "del \"$dir/aegisub-portable-64.zip\"",
             "mv \"$dir/aegisub-portable/*\" \"$dir\"",
             "rmdir \"$dir/aegisub-portable\""
         ]
