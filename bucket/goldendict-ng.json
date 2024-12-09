@@ -7,7 +7,8 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/xiaoyifang/goldendict-ng/releases/download/v24.09.1-Release.ca9dd133/GoldenDict-ng-24.09.1-Qt6.7.2.7z",
-            "hash": "f27035307fc71068f3a11e9771659f4f526c1f3ae1d83f678fbd3a15d493d4ff"
+            "hash": "f27035307fc71068f3a11e9771659f4f526c1f3ae1d83f678fbd3a15d493d4ff",
+            "extract_dir": "GoldenDict-ng-24.09.1-Qt6.7.2"
         }
     },
     "bin": [
@@ -36,7 +37,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xiaoyifang/goldendict-ng/releases/download/v$match_tag/GoldenDict-ng-$match_appVer-Qt$match_qtVer.7z"
+                "url": "https://github.com/xiaoyifang/goldendict-ng/releases/download/v$match_tag/GoldenDict-ng-$match_appVer-Qt$match_qtVer.7z",
+                "extract_dir": "GoldenDict-ng-$match_appVer-Qt$match_qtVer"
             }
         }
     }
