@@ -1,0 +1,25 @@
+{
+    "version": "1.4.0",
+    "description": "Convert Netease Cloud Music ncm files to mp3/flac files.",
+    "homepage": "https://github.com/taurusxin/ncmdump",
+    "license": "MIT License",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/taurusxin/ncmdump/releases/download/1.4.0/ncmdump-1.4.0-windows-amd64-msvc.zip"
+        }
+    },
+    "bin": "ncmdump.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/taurusxin/ncmdump/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/taurusxin/ncmdump/releases/download/$version/ncmdump-$version-windows-amd64-msvc.zip",
+                "extract_dir": "ncmdump-$version"
+            }
+        }
+    }
+}
