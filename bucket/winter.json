@@ -1,0 +1,30 @@
+{
+    "version": "1.1.0",
+    "description": "Displays live network and system telemetry in the Windows taskbar.",
+    "homepage": "https://github.com/Elypha/Winter",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Elypha/Winter/releases/download/v1.1.0/Winter-1.1.0-windows-x64.zip",
+            "hash": "9c7aa77f4f7ec20c2c86f6ca003ee7d4356e0c58385a652c7931e08c2e27702e"
+        }
+    },
+    "extract_dir": "Winter",
+    "shortcuts": [
+        [
+            "Winter.exe",
+            "Winter"
+        ]
+    ],
+    "persist": "config",
+    "checkver": {
+        "github": "https://github.com/Elypha/Winter"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Elypha/Winter/releases/download/v$version/Winter-$version-windows-x64.zip"
+            }
+        }
+    }
+}
