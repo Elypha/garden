@@ -6,6 +6,10 @@ on:
     # run every 4 hours
     - cron: '20 */4 * * *'
 
+concurrency:
+  group: excavator
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
