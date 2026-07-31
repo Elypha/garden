@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Elypha/Winter/releases/download/v$version/Winter-$version-windows-x64.zip"
+                "url": "https://github.com/Elypha/Winter/releases/download/v$version/Winter-windows-x64.zip"
             }
         }
     }
