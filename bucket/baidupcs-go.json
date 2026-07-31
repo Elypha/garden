@@ -1,0 +1,51 @@
+{
+    "version": "4.0.1",
+    "description": "Command-line client for Baidu Netdisk.",
+    "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.1/BaiduPCS-Go-v4.0.1-windows-x64.zip",
+            "hash": "bb3bc2409e55820d681daef880a6949748fbc81d740952c2b2c05c28a075a4ee",
+            "extract_dir": "BaiduPCS-Go-v4.0.1-windows-x64"
+        },
+        "32bit": {
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.1/BaiduPCS-Go-v4.0.1-windows-x86.zip",
+            "hash": "17f9a27d4a6144a062e4771dfa7c7efd206fa9b97cc91a465cc26f9e9a02db9f",
+            "extract_dir": "BaiduPCS-Go-v4.0.1-windows-x86"
+        }
+    },
+    "bin": [
+        "BaiduPCS-Go.exe",
+        [
+            "BaiduPCS-Go.exe",
+            "baidu"
+        ]
+    ],
+    "env_set": {
+        "BAIDUPCS_GO_CONFIG_DIR": "$dir\\config"
+    },
+    "persist": "config",
+    "post_install": [
+        "$configFile = \"$dir\\config\\pcs_config.json\"",
+        "if (!(Test-Path $configFile)) {",
+        "    $downloads = (New-Object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path",
+        "    & \"$dir\\BaiduPCS-Go.exe\" config set -savedir \"$downloads\" | Out-Null",
+        "}"
+    ],
+    "checkver": {
+        "github": "https://github.com/qjfoidnh/BaiduPCS-Go"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-x64.zip",
+                "extract_dir": "BaiduPCS-Go-v$version-windows-x64"
+            },
+            "32bit": {
+                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-x86.zip",
+                "extract_dir": "BaiduPCS-Go-v$version-windows-x86"
+            }
+        }
+    }
+}
