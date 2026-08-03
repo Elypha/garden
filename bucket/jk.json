@@ -17,6 +17,9 @@
         }
     },
     "bin": "jk.exe",
+    "env_set": {
+        "JK_HOME": "$persist_dir"
+    },
     "checkver": {
         "github": "https://github.com/Elypha/jk"
     },
