@@ -1,5 +1,5 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Transparent CLI alias runner - a small, no-magic alternative to just/make.",
     "homepage": "https://github.com/Elypha/jk",
     "license": "Apache-2.0",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Elypha/jk/releases/download/v0.2.0/jk-x86_64-pc-windows-msvc.zip",
-            "hash": "218a934816a58decaa6249a3db776487319b4d8c334ea5a368f1888ab58f6bfd"
+            "url": "https://github.com/Elypha/jk/releases/download/v0.3.0/jk-x86_64-pc-windows-msvc.zip",
+            "hash": "7e0028f203a531cb1356bdaa13a34298eccc8b85c8efb65d525966331ec5261b"
         },
         "arm64": {
-            "url": "https://github.com/Elypha/jk/releases/download/v0.2.0/jk-aarch64-pc-windows-msvc.zip",
-            "hash": "713b77e3519d5c809d6c24d63ffbf2a1455ca25149718e979dbb00626c9b7a43"
+            "url": "https://github.com/Elypha/jk/releases/download/v0.3.0/jk-aarch64-pc-windows-msvc.zip",
+            "hash": "5f5afd99dcf96f9fc9a4057284557fc2986391ab2703122a727b234477938cff"
         }
     },
     "bin": "jk.exe",
