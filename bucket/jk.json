@@ -17,6 +17,7 @@
         }
     },
     "bin": "jk.exe",
+    "pre_install": "ensure $persist_dir | Out-Null",
     "env_set": {
         "JK_HOME": "$persist_dir"
     },
