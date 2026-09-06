@@ -15,6 +15,7 @@ scoop install garden/<app_name>
 | [ChatGPT Desktop](https://learn.chatgpt.com/docs/windows/windows-app) | Official ChatGPT desktop app with Codex, unpacked from the Store-signed MSIX without AppX registration. |
 | [DirectXTex](https://github.com/microsoft/DirectXTex) | DirectXTex command-line texture processing tools: texconv, texassemble, and texdiag. |
 | [GoldenDict-ng](https://github.com/xiaoyifang/goldendict-ng) | A feature-rich dictionary lookup program supporting multiple dictionary formats. |
+| [Image Compare](https://github.com/gimletlove/imagecompare) | Desktop image comparison and visual diff tool for comparing images side by side, stacked, or in a grid. |
 | [Improve ImgSLI](https://github.com/Loganavter/Improve-ImgSLI) | Open-source workspace platform for advanced image and media comparison. |
 | [jk](https://github.com/Elypha/jk) | Transparent CLI alias runner - a small, no-magic alternative to just/make. |
 | [ncmdump](https://github.com/taurusxin/ncmdump) | Converts NetEase Cloud Music NCM files to MP3 or FLAC. |
