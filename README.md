@@ -19,4 +19,5 @@ scoop install garden/<app_name>
 | [Improve ImgSLI](https://github.com/Loganavter/Improve-ImgSLI) | Open-source workspace platform for advanced image and media comparison. |
 | [jk](https://github.com/Elypha/jk) | Transparent CLI alias runner - a small, no-magic alternative to just/make. |
 | [ncmdump](https://github.com/taurusxin/ncmdump) | Converts NetEase Cloud Music NCM files to MP3 or FLAC. |
+| [QuickSwitch](https://github.com/JoyHak/QuickSwitch) | Quickly switch file dialogs to folders open in your file manager or saved as favourites. |
 | [Winter](https://github.com/Elypha/Winter) | Displays live network and system telemetry in the Windows taskbar. |
