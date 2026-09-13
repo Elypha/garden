@@ -1,16 +1,16 @@
 {
-    "version": "1.9",
+    "version": "1.9.16",
     "description": "Quickly switch file dialogs to folders open in your file manager or saved as favourites.",
     "homepage": "https://github.com/JoyHak/QuickSwitch",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JoyHak/QuickSwitch/releases/download/1.9/QuickSwitch-1.9-x64.zip",
-            "hash": "116d5c75f3d6813d5c6a3ae323c14cb76488445cd1ec4f8c73a31fa4115c7858"
+            "url": "https://github.com/JoyHak/QuickSwitch/releases/download/1.9.11/QuickSwitch-1.9.16-x64.zip",
+            "hash": "2a5f3d44f66bd472abfc0a35e8fff2ea85afe97ac6c31a645c7d3ab2cb309e11"
         },
         "32bit": {
-            "url": "https://github.com/JoyHak/QuickSwitch/releases/download/1.9/QuickSwitch-1.9-x32.zip",
-            "hash": "1d98ebcc417f7b126310f3b13fd0d6e96f5abf2134eb0699cd4ee0d91f7566f7"
+            "url": "https://github.com/JoyHak/QuickSwitch/releases/download/1.9.11/QuickSwitch-1.9.16-x32.zip",
+            "hash": "c8ad53d0438349c2a65e72a459a2685e227bd152347fb113bc96183b802466b3"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\QuickSwitch.ini\")) { Set-Content \"$dir\\QuickSwitch.ini\" '[Global]' -Encoding utf8 }",
