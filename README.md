@@ -12,6 +12,7 @@ scoop install garden/<app_name>
 | App | Description |
 | --- | --- |
 | [BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) | Command-line client for Baidu Netdisk. |
+| [Blender MCP](https://projects.blender.org/lab/blender_mcp) | Official Blender Lab MCP server for interacting with Blender and its Python API. |
 | [ChatGPT Desktop](https://learn.chatgpt.com/docs/windows/windows-app) | Official ChatGPT desktop app with Codex, unpacked from the Store-signed MSIX without AppX registration. |
 | [DirectXTex](https://github.com/microsoft/DirectXTex) | DirectXTex command-line texture processing tools: texconv, texassemble, and texdiag. |
 | [GoldenDict-ng](https://github.com/xiaoyifang/goldendict-ng) | A feature-rich dictionary lookup program supporting multiple dictionary formats. |
